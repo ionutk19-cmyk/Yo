@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventDetailActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            style="@style/ToolbarStyle"
+            app:title="Event Details" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Event Header -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EventCardStyle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <!-- Color Indicator -->
+                    <View
+                        android:id="@+id/event_color_indicator"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/event_blue"
+                        android:layout_marginEnd="16dp" />
+
+                    <!-- Event Info -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/event_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_primary_light"
+                            tools:text="Team Meeting" />
+
+                        <TextView
+                            android:id="@+id/event_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/text_secondary_light"
+                            android:drawablePadding="8dp"
+                            app:drawableStartCompat="@drawable/ic_calendar"
+                            tools:text="Monday, December 25, 2023" />
+
+                        <TextView
+                            android:id="@+id/event_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/text_secondary_light"
+                            android:drawablePadding="8dp"
+                            app:drawableStartCompat="@drawable/ic_time"
+                            tools:text="09:00 - 10:00" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Location Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/location_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/EventCardStyle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Location"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_secondary_light"
+                        android:textAllCaps="true" />
+
+                    <TextView
+                        android:id="@+id/event_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/text_primary_light"
+                        tools:text="Conference Room A, 2nd Floor" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Description Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/description_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/EventCardStyle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Description"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_secondary_light"
+                        android:textAllCaps="true" />
+
+                    <TextView
+                        android:id="@+id/event_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/text_primary_light"
+                        tools:text="Weekly team standup meeting to discuss project progress, upcoming deadlines, and any blockers team members might be facing." />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
