@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Calendar App</string>
+    <string name="today">Today</string>
+    <string name="add_event">Add Event</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_description">Event Description</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="no_events">No events for this day</string>
+    <string name="calendar_permission_required">Calendar permission is required to access and manage events</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="event_saved">Event saved successfully</string>
+    <string name="event_deleted">Event deleted successfully</string>
+    <string name="error_saving_event">Error saving event</string>
+    <string name="error_deleting_event">Error deleting event</string>
+    <string name="all_day">All Day</string>
+    <string name="location">Location</string>
+    <string name="reminder">Reminder</string>
+    <string name="no_reminder">No reminder</string>
+    <string name="minutes_before">minutes before</string>
+    <string name="hour_before">hour before</string>
+    <string name="day_before">day before</string>
+    <string name="week_before">week before</string>
+</resources>
