@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar App</string>
+    
+    <!-- Navigation -->
+    <string name="calendar">Calendar</string>
+    <string name="events">Events</string>
+    <string name="today">Today</string>
+    
+    <!-- Event Management -->
+    <string name="add_event">Add Event</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="delete_event">Delete Event</string>
+    <string name="save_event">Save Event</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    
+    <!-- Event Fields -->
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="all_day">All Day</string>
+    <string name="repeat">Repeat</string>
+    <string name="reminder">Reminder</string>
+    
+    <!-- Event Repeat Options -->
+    <string name="never">Never</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    
+    <!-- Time -->
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="time_format">HH:mm</string>
+    <string name="date_format">MMM dd, yyyy</string>
+    
+    <!-- Messages -->
+    <string name="no_events">No events for this day</string>
+    <string name="event_saved">Event saved successfully</string>
+    <string name="event_deleted">Event deleted</string>
+    <string name="event_updated">Event updated</string>
+    <string name="please_enter_title">Please enter a title</string>
+    <string name="confirm_delete">Are you sure you want to delete this event?</string>
+    
+    <!-- Calendar View -->
+    <string name="month_view">Month</string>
+    <string name="week_view">Week</string>
+    <string name="day_view">Day</string>
+    <string name="agenda_view">Agenda</string>
+    
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="search_events">Search events...</string>
+    <string name="no_search_results">No events found</string>
+</resources>
