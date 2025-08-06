@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">WhatsApp Auto Responder</string>
+    <string name="accessibility_service_description">This service helps automate WhatsApp responses and send scheduled messages. It monitors WhatsApp notifications and can automatically reply to messages.</string>
+    
+    <!-- Main Activity -->
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="accessibility_enabled">Accessibility Service Enabled</string>
+    <string name="accessibility_disabled">Accessibility Service Disabled</string>
+    <string name="auto_reply_enabled">Auto Reply Enabled</string>
+    <string name="auto_reply_disabled">Auto Reply Disabled</string>
+    <string name="scheduled_messages">Scheduled Messages</string>
+    <string name="add_scheduled_message">Add Scheduled Message</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Auto Reply Settings -->
+    <string name="auto_reply_message">Auto Reply Message</string>
+    <string name="auto_reply_message_hint">Enter your automatic reply message</string>
+    <string name="enable_auto_reply">Enable Auto Reply</string>
+    <string name="reply_to_all">Reply to All Messages</string>
+    <string name="reply_to_contacts">Reply to Contacts Only</string>
+    <string name="reply_to_specific">Reply to Specific Numbers</string>
+    
+    <!-- Scheduled Messages -->
+    <string name="message_text">Message Text</string>
+    <string name="message_text_hint">Enter the message to send</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_hint">Enter phone number with country code</string>
+    <string name="schedule_time">Schedule Time</string>
+    <string name="repeat_daily">Repeat Daily</string>
+    <string name="repeat_weekly">Repeat Weekly</string>
+    <string name="repeat_monthly">Repeat Monthly</string>
+    <string name="no_repeat">No Repeat</string>
+    <string name="save_schedule">Save Schedule</string>
+    <string name="delete_schedule">Delete</string>
+    <string name="edit_schedule">Edit</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">WhatsApp Auto Responder</string>
+    <string name="notification_channel_description">Notifications for WhatsApp auto responder service</string>
+    <string name="service_running">Auto Responder Service Running</string>
+    <string name="message_sent">Message Sent Successfully</string>
+    <string name="message_failed">Failed to Send Message</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Permission Required</string>
+    <string name="accessibility_permission_required">Accessibility permission is required for this app to work properly.</string>
+    <string name="notification_permission_required">Notification permission is required to detect WhatsApp messages.</string>
+    
+    <!-- Errors -->
+    <string name="error_invalid_phone">Invalid phone number format</string>
+    <string name="error_empty_message">Message cannot be empty</string>
+    <string name="error_invalid_time">Please select a valid time</string>
+    <string name="error_whatsapp_not_installed">WhatsApp is not installed on this device</string>
+    
+    <!-- Success -->
+    <string name="success_schedule_saved">Schedule saved successfully</string>
+    <string name="success_schedule_deleted">Schedule deleted successfully</string>
+    <string name="success_settings_saved">Settings saved successfully</string>
+</resources>
